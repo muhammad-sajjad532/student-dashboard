@@ -1,0 +1,9 @@
+.layout-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #232526, #414345);
+}
+
+.main-content {
+    padding: 2rem;
+    min-height: calc(100vh - 70px);
+}

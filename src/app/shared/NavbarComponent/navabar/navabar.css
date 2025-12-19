@@ -1,0 +1,38 @@
+.navbar {
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-link {
+      transition: all 0.3s ease;
+      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      margin: 0 0.25rem;
+    }
+
+    .nav-link:hover {
+      background: rgba(255,255,255,0.1);
+      transform: translateY(-2px);
+    }
+
+    .nav-link.active {
+      background: rgba(255,255,255,0.2);
+      font-weight: 600;
+    }
+
+    .navbar-brand {
+      font-size: 1.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .btn-light {
+      background: white;
+      color: #667eea;
+      font-weight: 600;
+      border: none;
+    }
+
+    .btn-light:hover {
+      background: #f8f9fa;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
