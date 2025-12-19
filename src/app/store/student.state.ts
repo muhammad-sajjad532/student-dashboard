@@ -49,8 +49,7 @@ export class StudentState {
   
   @Action(GetStudents)
   getStudents(ctx: StateContext<StudentStateModel>) {
-    // For now, let's use mock data
-    // Later we'll replace this with API call
+    
     const mockStudents: Student[] = [
       {
         id: '1',

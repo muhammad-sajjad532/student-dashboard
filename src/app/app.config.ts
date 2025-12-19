@@ -4,6 +4,7 @@ import { routes } from './app.routes';
 import { provideStore } from '@ngxs/store';
 import { withNgxsLoggerPlugin } from '@ngxs/logger-plugin';
 import { withNgxsReduxDevtoolsPlugin } from '@ngxs/devtools-plugin';
+import { StudentState } from './store/student.state';
 
 
 export const appConfig: ApplicationConfig = {
@@ -11,7 +12,7 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideRouter(routes), provideStore(
-[], withNgxsLoggerPlugin(), withNgxsReduxDevtoolsPlugin()
+[StudentState], withNgxsLoggerPlugin(), withNgxsReduxDevtoolsPlugin()
 )
   ]
 };
